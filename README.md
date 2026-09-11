@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/32103394/README.md)
 <div align="center">
 
-# ✨ Магомед Саламанов ✨
+# ✨ Магомед-Лезиз Саламанов ✨
 
 **Middle+ Frontend Developer** · Angular · React · TypeScript
 
