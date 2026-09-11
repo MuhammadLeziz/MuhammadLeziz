@@ -146,13 +146,3 @@
 
 ---
 
-### 📊 GitHub статистика
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MuhammadLeziz&theme=tokyonight" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=MuhammadLeziz&theme=tokyonight&hide_border=true&background=0D1117&ring=DD0031&fire=DD0031&currStreakLabel=DD0031" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MuhammadLeziz&color=DD0031&style=flat-square&label=👁️+Profile+Views" />
-</p>
