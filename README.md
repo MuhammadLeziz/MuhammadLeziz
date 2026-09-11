@@ -1,4 +1,4 @@
-[README_profile.md](https://github.com/user-attachments/files/32108889/README_profile.md)
+
 <div align="center">
 
 # ✨ Магомед-Лезиз Саламанов ✨
@@ -7,7 +7,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=DD0031&center=true&vCenter=true&width=520&lines=Enterprise+SPA+%D0%BD%D0%B0+Angular;100k%2B+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BA%D1%88%D0%B5%D0%BD%D0%B5;RxJS+%C2%B7+NgRx+%C2%B7+OnPush+%C2%B7+Lazy+Loading" alt="Typing SVG" />
 
-📍 Грозный &nbsp;•&nbsp; 💼 3,5+ года опыта &nbsp;•&nbsp; 🌍 Удалённо / гибрид / офис
+📍 Грозный &nbsp;•&nbsp; 💼 3 года 7 месяцев опыта &nbsp;•&nbsp; 🌍 Удалённо / гибрид / офис / командировки
 
 <br>
 
@@ -19,40 +19,67 @@
 
 ---
 
-### 📊 Опыт работы
+### 🎯 Обо мне
 
-> **3,5+ года** коммерческой разработки · enterprise SPA на **Angular** · продукты с аудиторией **100k+** пользователей в телекоме
+> Frontend-разработчик уровня **Middle** с **3,5+ годами** коммерческого опыта на Angular. Специализируюсь на enterprise SPA-приложениях: реактивная архитектура на RxJS/NgRx, работа с Change Detection, оптимизация Web Performance, поддержка компонентных дизайн-систем.
+
+Работал над корпоративными продуктами с аудиторией **100k+** пользователей в телекоме и международными open-source проектами.
+
+---
+
+### 📊 Опыт работы
 
 <div align="center">
 
-| 👥 **100k+** | ⚡ **−35%** | 🛰 **45 000+** | 🧪 **80%+** |
+| 👥 **100k+** | ⚡ **−35%** | 🛰 **45 000+** | 🔁 **−30%** |
 |:---:|:---:|:---:|:---:|
-| пользователей<br>личного кабинета | Time to Interactive<br>после оптимизации | телеком-объектов<br>в админ-панели | покрытие тестами<br>критических модулей |
+| пользователей<br>личного кабинета | Time to Interactive<br>после оптимизации | телеком-объектов<br>в админ-панели | лишних HTTP-запросов<br>за счёт кэширования |
 
 </div>
 
-#### 📡 Вайнах Телеком — Frontend Developer (Angular)
-`Сентябрь 2024 — Сентябрь 2026` · Грозный · [vainahtelecom.ru](https://www.vainahtelecom.ru)
+#### 📡 Вайнах Телеком — Frontend-разработчик
+`Сентябрь 2024 — Сентябрь 2026` · 2 года 1 месяц · Грозный · [vainahtelecom.ru](https://www.vainahtelecom.ru)
 
-- Личный кабинет абонента на **Angular 15+**: тарифы, услуги, баланс, история платежей — интеграция с биллингом через REST API
-- Админ-панель мониторинга сети с интеграцией NRI-системы EQM: динамические таблицы, серверная пагинация, продвинутая фильтрация
-- Lazy loading модулей, **OnPush** Change Detection и `trackBy` — **TTI сократился на 35%**
-- Дизайн-система на Angular Material с документацией в **Storybook** — **8+** переиспользуемых компонентов для всего портала
-- Интеграция с IPTV/OTT-платформами (Wink, more.tv), подключение пакетов ТВ (260–410 каналов) без перезагрузки страницы
-- WebSocket-модуль для real-time статуса сети с автоматическим переподключением
-- Unit- и component-тесты (Karma/Jasmine + Jest), покрытие критических модулей **80%+**
-- Настроил **CI/CD** pipeline на GitHub Actions: lint, тесты, автодеплой на staging по каждому PR
+— Разработал и поддерживал Личный кабинет абонента на **Angular 15+**: управление тарифами, услугами, балансом; интеграция с биллингом через REST API — аудитория **100k+** пользователей.
 
-#### 🌐 NURTECH — Frontend Developer (Angular)
-`Март 2023 — Август 2024` · Удалённо · международный open-source
+— Реализовал админ-интерфейс мониторинга сетевой инфраструктуры с интеграцией NRI-системы EQM (**45 000+** телеком-объектов): динамические таблицы, серверная пагинация, продвинутая фильтрация.
 
-- Интернет-магазины, CRM-панели и системы управления для клиентов из СНГ и Ближнего Востока
-- **10+** переиспользуемых UI-компонентов для внутренней CRM: таблицы, модальные окна, динамические формы, генератор фильтров
-- Миграция **Angular 13 → 16**: lazy loading, обновление зависимостей, адаптация под новый API компилятора
-- Кэширование через RxJS `shareReplay` и стратегии инвалидации — на **30%** меньше лишних HTTP-запросов
-- Каталог товаров загружается быстрее на **25%** благодаря lazy loading изображений и code splitting
-- WebSocket-модуль для real-time уведомлений и чата оператора с клиентом
-- JWT-авторизация с refresh-token flow через HTTP Interceptors и RBAC-модуль
+— Оптимизировал производительность SPA: lazy loading модулей, **OnPush** Change Detection, `trackBy`, tree-shaking — Time to Interactive **−35%**.
+
+— Разработал дизайн-систему на Angular Material с документацией в **Storybook**: **8+** переиспользуемых компонентов (таблицы, модальные окна, динамические формы), покрывают все разделы портала.
+
+— Настроил интеграцию с IPTV/OTT-платформами (Wink, more.tv); реализовал модуль подключения пакетов цифрового ТВ (260–410 каналов) без перезагрузки страницы.
+
+— Реализовал WebSocket-модуль для real-time статуса сети: автоматическое переподключение, очередь сообщений при обрывах связи.
+
+— Внедрил unit- и component-тесты (Karma/Jasmine + Jest) => покрытие критических модулей.
+
+— Настроил CI/CD pipeline на GitHub Actions: автозапуск ESLint / Prettier / тестов на каждый PR, автодеплой на staging.
+
+— Работал в Scrum-команде из 6 человек (2-недельные спринты): ежедневная синхронизация с backend, UX-дизайнером и QA; декомпозиция задач в Jira.
+
+#### 🌐 NurTech — Frontend-разработчик
+`Март 2023 — Август 2024` · 1 год 6 месяцев · Казань · [nurtech.dev](https://nurtech.dev/)
+
+*Информационные технологии, системная интеграция, интернет · Разработка программного обеспечения*
+
+— Разрабатывал коммерческие продукты для международного рынка с первых месяцев: интернет-магазины, CRM-панели, системы управления под клиентов из СНГ и Ближнего Востока.
+
+— Реализовал **10+** переиспользуемых UI-компонентов для внутренней CRM: сложные таблицы, модальные окна, динамические формы, генератор фильтров — покрывают все модули продукта.
+
+— Участвовал в миграции **Angular 13 → 16**: lazy loading, обновление зависимостей, адаптация под новый API компилятора, минимизация регрессий в проде.
+
+— Внедрил реактивный слой кэширования через RxJS `shareReplay` и стратегии инвалидации — количество лишних HTTP-запросов снизилось на **30%**.
+
+— Ускорил загрузку каталога товаров интернет-магазина на **25%** за счёт lazy loading изображений, code splitting и оптимизации критического пути.
+
+— Реализовал WebSocket-модуль для real-time уведомлений и чата оператора с клиентом: автопереподключение, очередь неотправленных сообщений.
+
+— Настроил JWT-авторизацию с refresh-token flow через HTTP Interceptors и модуль RBAC для разграничения доступа.
+
+— Внедрил code quality pipeline: ESLint + Prettier + Husky (pre-commit hooks) — стилистические баги в code review свелись к минимуму.
+
+— Исправлял критические баги в продакшене: корзина, валидация форм, отображение цен в разных валютах и локалях.
 
 ---
 
@@ -65,20 +92,19 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" />
   <img src="https://img.shields.io/badge/NgRx-BA2BD2?style=for-the-badge&logo=ngrx&logoColor=white" />
-</p>
-
-#### Стилизация и UI
-<p>
-  <img src="https://img.shields.io/badge/Angular_Material-3F51B5?style=for-the-badge&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 </p>
 
-#### Данные и API
+#### UI-библиотеки
+<p>
+  <img src="https://img.shields.io/badge/Angular_Material-3F51B5?style=for-the-badge&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/PrimeNG-007AD9?style=for-the-badge&logo=primeng&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
+</p>
+
+#### Работа с данными
 <p>
   <img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
   <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
@@ -87,47 +113,43 @@
 
 #### Тестирование
 <p>
-  <img src="https://img.shields.io/badge/Karma_+_Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white" />
+  <img src="https://img.shields.io/badge/Karma-42B883?style=for-the-badge&logo=karma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white" />
   <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white" />
 </p>
 
-#### Инструменты и DevOps
+#### DevOps и инструменты
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
   <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
+  <img src="https://img.shields.io/badge/Husky-323330?style=for-the-badge&logo=husky&logoColor=white" />
 </p>
 
 #### Процессы
 <p>
   <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white" />
-  <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=agile&logoColor=white" />
   <img src="https://img.shields.io/badge/Kanban-026AA7?style=for-the-badge&logo=trello&logoColor=white" />
+  <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=agile&logoColor=white" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white" />
 </p>
-
----
-
-### 🎯 Обо мне
-
-> Разрабатываю enterprise SPA на Angular. Строю масштабируемые и быстрые интерфейсы, уделяя внимание архитектуре, реактивности и качеству кода.
-
-Слежу за **производительностью**: lazy loading, OnPush + `trackBy`, SSR (Angular Universal), метрики LCP, TTI, CLS. Проектирую переиспользуемые компонентные дизайн-системы с документацией в Storybook. Знаком с Node.js / Express на уровне, достаточном для **интеграции API** и написания BFF-слоя при необходимости.
-
-Работаю по **Scrum**, участвую в code review и декомпозиции задач, ежедневно синхронизируюсь с backend-командой, UX-дизайнером и QA.
 
 ---
 
 ### 🎓 Образование
 
-🏛 **ГГНТУ** — бакалавриат, «Информационные системы и технологии» · выпуск в 2027
+🏛 **ГГНТУ им. академика М.Д. Миллионщикова** · Грозный · Неоконченное высшее · 2027
+
+🏫 **Институт прикладных информационных технологий** · Информационные системы и технологии
+
+---
+
+### 🗣 Языки
+
+**Русский** — родной &nbsp;•&nbsp; **English** — B1 (средний)
 
 ---
