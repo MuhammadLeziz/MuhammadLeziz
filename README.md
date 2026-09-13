@@ -47,7 +47,7 @@
 
 — Внедрил unit- и component-тесты (Karma/Jasmine + Jest) => покрытие критических модулей.
 
-— Настроил CI/CD pipeline на GitHub Actions: автозапуск ESLint / Prettier / тестов на каждый PR, автодеплой на staging.
+— Настроил CI/CD pipeline на GitLab: автозапуск ESLint / Prettier / тестов на каждый PR, автодеплой на staging.
 
 — Работал в Scrum-команде из 6 человек (2-недельные спринты): ежедневная синхронизация с backend, UX-дизайнером и QA; декомпозиция задач в Jira.
 
