@@ -1,11 +1,10 @@
-
 <div align="center">
 
 # ✨ Магомед-Лезиз Саламанов ✨
 
-**Middle Frontend Developer** · Angular · TypeScript
+**Middle Frontend Developer** · Angular · TypeScript · React · Vue
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=DD0031&center=true&vCenter=true&width=520&lines=Enterprise+SPA+%D0%BD%D0%B0+Angular;100k%2B+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BA%D1%88%D0%B5%D0%BD%D0%B5;RxJS+%C2%B7+NgRx+%C2%B7+OnPush+%C2%B7+Lazy+Loading" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=DD0031&center=true&vCenter=true&width=560&lines=Enterprise+SPA+%D0%BD%D0%B0+Angular;100k%2B+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BA%D1%88%D0%B5%D0%BD%D0%B5;RxJS+%C2%B7+NgRx+%C2%B7+OnPush+%C2%B7+Lazy+Loading;React+%C2%B7+Redux+%C2%B7+Vue+3+%C2%B7+Nuxt+%C2%B7+Next.js" alt="Typing SVG" />
 
 📍 Грозный &nbsp;•&nbsp; 💼 3 года 7 месяцев опыта &nbsp;•&nbsp; 🌍 Удалённо / гибрид / офис / командировки
 
@@ -21,9 +20,9 @@
 
 ### 🎯 Обо мне
 
-> Frontend-разработчик уровня **Middle** с **3,5+ годами** коммерческого опыта на Angular. Специализируюсь на enterprise SPA-приложениях: реактивная архитектура на RxJS/NgRx, работа с Change Detection, оптимизация Web Performance, поддержка компонентных дизайн-систем.
+> Frontend-разработчик уровня **Middle** с **3,5+ годами** коммерческого опыта. Основной стек — Angular + TypeScript, есть коммерческий опыт на React (Redux Toolkit) и Vue 3 (Pinia, Nuxt). Специализируюсь на enterprise SPA-приложениях: реактивная архитектура на RxJS/NgRx, работа с Change Detection, оптимизация Web Performance, поддержка компонентных дизайн-систем.
 
-Работал над корпоративными продуктами с аудиторией **100k+** пользователей в телекоме и международными open-source проектами.
+Работал над корпоративными продуктами с аудиторией **100k+** пользователей в телекоме и международными проектами в аутсорс-студии.
 
 ---
 
@@ -45,9 +44,17 @@
 
 — Реализовал WebSocket-модуль для real-time статуса сети: автоматическое переподключение, очередь сообщений при обрывах связи.
 
-— Внедрил unit- и component-тесты (Karma/Jasmine + Jest) => покрытие критических модулей.
+— Провёл миграцию сборки с **Webpack на Vite**: полная сборка сократилась с 4 минут до 2 (**−50%**), hot reload — с 3-4 секунд до долей секунды.
 
-— Настроил CI/CD pipeline на GitLab: автозапуск ESLint / Prettier / тестов на каждый PR, автодеплой на staging.
+— Внедрил **автогенерацию TypeScript-типов из OpenAPI-схемы** бэкенда: типы фронта и бэка перестали расходиться, класс runtime-ошибок «поле не пришло» ушёл в ноль.
+
+— Оптимизировал **Core Web Vitals** Личного кабинета: LCP снижен с 3.2 сек до 1.4 сек, CLS с 0.28 до 0.02 — все ключевые метрики в зелёной зоне.
+
+— Внедрил **E2E-тестирование через Cypress** для критичных сценариев (авторизация, оплата, смена тарифа) — регрессии в проде по этим флоу свелись к нулю.
+
+— Внедрил unit- и component-тесты на **Jest** — покрытие критических модулей.
+
+— Настроил CI/CD pipeline на GitLab: автозапуск линта / тестов на каждый PR, автодеплой на staging.
 
 — Работал в Scrum-команде из 6 человек (2-недельные спринты): ежедневная синхронизация с backend, UX-дизайнером и QA; декомпозиция задач в Jira.
 
@@ -70,7 +77,15 @@
 
 — Настроил JWT-авторизацию с refresh-token flow через HTTP Interceptors и модуль RBAC для разграничения доступа.
 
-— Внедрил code quality pipeline: ESLint + Prettier + Husky (pre-commit hooks) — стилистические баги в code review свелись к минимуму.
+— Разработал модуль внутренней аналитики CRM на **React + Redux Toolkit**: дашборды с графиками продаж, воронка сделок, виртуализированные таблицы для 10 000+ строк.
+
+— Создал промо-сайт продукта клиента на **Vue 3 + Nuxt.js + Pinia** с серверным рендерингом (SSR): Lighthouse Performance **96**, полная поддержка SEO.
+
+— Настроил **автогенерацию API-клиента из OpenAPI-схемы** заказчика: типы и запросы генерятся при билде, ошибки интеграции ловятся на этапе компиляции.
+
+— Работал параллельно с несколькими стеками (Angular / React / Vue) — под каждого клиента подбирали оптимальный, быстро переключался между проектами.
+
+— Внедрил code quality pipeline: ESLint + Prettier + pre-commit hooks — стилистические баги в code review свелись к минимуму.
 
 — Исправлял критические баги в продакшене: корзина, валидация форм, отображение цен в разных валютах и локалях.
 
@@ -78,57 +93,64 @@
 
 ### 🛠 Технологический стек
 
-#### Основные
+#### Языки и фреймворки
 <p>
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" />
-  <img src="https://img.shields.io/badge/NgRx-BA2BD2?style=for-the-badge&logo=ngrx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-#### UI-библиотеки
+#### Реактивность и State Management
+<p>
+  <img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" />
+  <img src="https://img.shields.io/badge/NgRx-BA2BD2?style=for-the-badge&logo=ngrx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black" />
+</p>
+
+#### UI и дизайн-система
 <p>
   <img src="https://img.shields.io/badge/Angular_Material-3F51B5?style=for-the-badge&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/PrimeNG-007AD9?style=for-the-badge&logo=primeng&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
   <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+</p>
+
+#### Сборка и инфраструктура
+<p>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
 #### Работа с данными
 <p>
   <img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
   <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
 </p>
 
 #### Тестирование
 <p>
-  <img src="https://img.shields.io/badge/Karma-42B883?style=for-the-badge&logo=karma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=jasmine&logoColor=white" />
   <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" />
 </p>
 
-#### DevOps и инструменты
+#### DevOps и командная работа
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
-  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
-  <img src="https://img.shields.io/badge/Husky-323330?style=for-the-badge&logo=husky&logoColor=white" />
-</p>
-
-#### Процессы
-<p>
-  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kanban-026AA7?style=for-the-badge&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=agile&logoColor=white" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white" />
+  <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=agile&logoColor=white" />
 </p>
 
 ---
