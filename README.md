@@ -4,8 +4,6 @@
 
 Junior Frontend-разработчик (Angular)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=DD0031&center=true&vCenter=true&width=560&lines=Enterprise+SPA+%D0%BD%D0%B0+Angular;100k%2B+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BA%D1%88%D0%B5%D0%BD%D0%B5;RxJS+%C2%B7+NgRx+%C2%B7+OnPush+%C2%B7+Lazy+Loading;React+%C2%B7+Redux+%C2%B7+Vue+3+%C2%B7+Nuxt+%C2%B7+Next.js" alt="Typing SVG" />
-
 <br>
 
 [![Telegram](https://img.shields.io/badge/Telegram-@muhammadleziz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/muhammadleziz)
